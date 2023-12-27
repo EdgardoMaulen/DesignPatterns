@@ -1,0 +1,7 @@
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\bin\Debug\Singleton.exe.config
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\bin\Debug\Singleton.exe
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\bin\Debug\Singleton.pdb
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\obj\Debug\Singleton.csproj.AssemblyReference.cache
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\obj\Debug\Singleton.csproj.CoreCompileInputs.cache
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\obj\Debug\Singleton.exe
+D:\Proyectos\CSharp\Patrones de Diseño\Singleton\obj\Debug\Singleton.pdb
