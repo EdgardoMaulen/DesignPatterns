@@ -1,0 +1,30 @@
+﻿<Window x:Class="Memento.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memento"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="270"
+        WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0">
+            <Label Content="Name" VerticalContentAlignment="Center" Width="80"/>
+            <TextBox x:Name="NameBox" Width="150" Height="22"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Label Content="Surname" VerticalContentAlignment="Center" Width="80"/>
+            <TextBox x:Name="SurnameBox" Width="150" Height="22"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Button Content="Update" Click="Update_Click" Height="30" Width="50" Margin="10,0,10,0"/>
+            <Button Content="Revert" Click="Revert_Click" Height="30" Width="50" Margin="10,0,10,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
